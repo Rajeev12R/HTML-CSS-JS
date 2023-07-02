@@ -1,5 +1,5 @@
-# HTML-CSS-JS
-Basic and Intermediate HTML , CSS and JS tutorials
+## HTML-CSS-JS
+#Basic and Intermediate HTML , CSS and JS tutorials
 
 1.Basic HTML -- intro , form ,image & anchor tags, list 
 

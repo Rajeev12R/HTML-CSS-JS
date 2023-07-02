@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is form tutorial</h2>
+    <form action="backend.php">
+        <!-- label is used to highlight whenever clicked but it should match the id name -->
+        <label for="name"> Name</label>
+        <!-- NOTE: Use div to leave line on the page instead of br as it looks bit premium -->
+        <div>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <div>
+            Date of birth: <input type="date" name="myDate of birth">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+            <br>
+            <br>
+            <div>
+                <label for="myElligibility"> Are you elligible</label>
+                <!-- checked is used to fill the checkbox by default -->
+                <input type="checkbox" name="myEllgiblity" id="Elligiblity" checked> <br>
+                Yes <input type="checkbox" name="myElliiblityyes"> No <input type="checkbox" name="myElligiblityno">
+            </div>
+            <br>
+            <div>
+                Gender:
+                <br>
+                Male <input type="radio" name="myGender" checked> Female <input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+                Write something: <br>
+                <textarea name="myText" cols="60" row="540">
+                </textarea>
+            </div>
+            <br>
+            <div>
+                <label for="car">Car To Use</label>
+                <!-- selected is used to fill the selected option as by default on the page -->
+                <select name="myCar" id="car">
+                    <option value="Indica">Indica </option>
+                    <option value="Tiago">Tiago</option>
+                    <option value="Nano" selected>Nano</option>
+                    <option value="Enova">Enova</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+    </form>
+
+</body>
+
+</html>

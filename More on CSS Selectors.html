@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        h1 {
+            background-color: rgb(195, 255, 104);
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* If p is the container by any li which is contained by div */
+        /* div li p{
+            color: orchid;
+            font-weight: bold;
+            background-color: lightblue;
+        } */
+
+        /* If p is right inside div then this CSS wil be applied */
+        /* div > p{
+            color: orchid;
+            font-weight: bold;
+            background-color: lightblue;
+        } */
+
+        /* If p is right after the div that is p is the next sibling of div */
+        div+p {
+            color: black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>These are more CSS Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is another paragraph inside li</p>
+                </li>
+                <li>This will not get affected</li>
+                <p>This will also not be affected</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is the outermost paragraph</p>
+
+
+</body>
+
+</html>

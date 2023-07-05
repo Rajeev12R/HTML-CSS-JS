@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid greenyellow;
+            margin: 50px auto;
+            font-family: sans-serif;
+            font-style: italic;
+            justify-content: space-between;
+            background-color: rgb(205, 188, 240);
+        }
+
+        .item {
+            border: 3px solid cyan;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(148, 230, 202);
+        }
+
+        #fruits {
+
+            padding: 20px;
+            float: left;
+            width: 48%;
+
+        }
+
+        #computer {
+            padding: 20px;
+            float: left;
+            width: 48%;
+
+        }
+
+        #stationary {
+            /* clear: both; */
+            clear: left;
+            padding: 20px;
+            width: 100%;
+
+        }
+
+        p,
+        h3 {
+            /*text-align: right;
+         text-align: left;
+         text-align: center;*/
+            text-align: justify;
+        }
+
+        h1 {
+            /* text-align: center; */
+            margin: auto;
+            width: 410px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome To Our Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                consectetur quisquam, eveniet amet at, sit debitis sunt quos aperiam illo autem officia distinctio
+                aliquam similique ipsa. Provident laborum vitae harum!
+                Officia sit illo iusto placeat eligendi similique cum quae repudiandae labore delectus quis recusandae
+                vero et enim, ad doloremque provident voluptatum distinctio rem quia molestias. Dolore nam commodi at
+                officiis. .</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                earum praesentium nostrum voluptates aut unde minima reiciendis modi blanditiis! Error nemo debitis
+                ipsum quo sit et vel impedit accusamus labore?
+                Molestias, similique perferendis perspiciatis sapiente recusandae quasi eum saepe minus laboriosam
+                error, dicta architecto tenetur odit blanditiis soluta praesentium tempore! A delectus recusandae
+                temporibus.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                natus et in excepturi praesentium molestias eaque delectus illum repellendus itaque animi eius rem,
+                magni odit tempora debitis vero voluptatum cum!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                natus et in excepturi praesentium molestias eaque delectus illum repellendus itaque animi eius rem,
+                magni odit tempora debitis vero voluptatum cum!</p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

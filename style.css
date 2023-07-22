@@ -1,0 +1,128 @@
+    /* CSS Reset */
+    body {
+
+        font-family: 'Noto Sans JP', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        height: 1400px;
+        background: url('image/barbell-1839086_1920.jpg');
+
+    }
+    .header{
+        position: sticky;
+        top: 0px;
+    }
+
+    .left {
+        position: absolute;
+        left: 30px;
+        top: 12px;
+        display: inline-block;
+        /* border: 2px solid rgb(209, 255, 116); */
+        font-family: 'Belanosima', sans-serif;
+    }
+
+    .left img {
+        width: 80px;
+        padding: 15px 18px;
+        filter: invert(86%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 1px;
+        font-size: 24px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 12px auto;
+        /* border: 3px solid rgb(184, 255, 109); */
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 29px;
+        display: inline-block;
+        /* border: 3px solid rgb(73, 249, 255); */
+    }
+
+    .btn {
+        margin: 0px 5px;
+        padding: 4px 14px;
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+        border: 2px solid grey;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(50, 46, 46);
+    }
+
+    .navbar {
+        display: inline-block;
+    
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: rgb(247, 247, 247);
+        text-decoration: none;
+        padding: 34px 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: burlywood;
+        text-decoration: underline;
+        font-size: 17px;
+
+    }
+
+    .container {
+        border: 2px solid grey;
+        margin: 106px 36px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        font-size: 30px;
+        position: fixed;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        padding: 7px 39px;
+        margin: 12px 90px;
+        font-size: 16px;
+        border: 2px solid grey;
+        border-radius: 16px;
+    }
+
+    .container button {
+        margin-top: 20px;
+        display: block;
+        margin-left: 124px;
+        width: 44%;
+        height: 41px;
+        padding-right: 19px;
+        border-radius: 23px;
+    }

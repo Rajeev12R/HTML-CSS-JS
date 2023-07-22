@@ -1,0 +1,7 @@
+alert("Enter the value of a!")
+let a = prompt("Enter the value of a here", "00")
+a = Number.parseInt(a)
+alert("You entered a of type " + (typeof a))
+let write = confirm("Wanna written on the webpage")
+console.log(write)
+document.write(a)

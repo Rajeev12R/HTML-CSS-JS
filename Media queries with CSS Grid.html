@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Media queries with CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+        }
+
+        @media (max-width: 300px) {
+            body {
+                background-color: aquamarine;
+            }
+        }
+
+        @media only screen and (min-width: 300px) and (max-width: 500px) {
+            body {
+                background-color: darksalmon;
+            }
+        }
+
+        @media only screen and (min-width: 500px) and (max-width: 700px) {
+            body {
+                background-color: skyblue;
+            }
+        }
+
+        @media only screen and (min-width: 700px) and (max-width: 900px) {
+            body {
+                background-color: peachpuff;
+            }
+        }
+
+        @media only screen and (min-width: 900px) and (max-width: 1000px) {
+            body {
+                background-color: plum;
+            }
+        }
+
+        @media only screen and (min-width: 900px) and (max-width: 1100px) {
+            body {
+                background-color: plum;
+            }
+        }
+
+        @media only screen and (min-width: 100vw) and (max-width: 100vh) {
+            body {
+                background-color: plum;
+            }
+        }
+
+        .bdr {
+            border: 2px solid orange;
+            padding: 23px;
+            background-color: wheat;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-gap: section;
+        }
+
+        #aside {
+            grid-gap: aside;
+        }
+
+        footer {
+            grid-gap: footer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="bdr">
+            Home About Discover
+        </nav>
+        <section class="bdr">
+            <h3>Learn CSS in Hindi</h3>
+        </section>
+        <aside class="bdr">
+            <h2>More About Us</h2>
+        </aside>
+        <footer class="bdr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </footer>
+    </div>
+
+    </div>
+</body>
+
+</html>

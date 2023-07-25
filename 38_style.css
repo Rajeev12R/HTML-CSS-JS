@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: floralwhite;
+}
+
+nav {
+    display: flex;
+    background-color: cornflowerblue;
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+}
+
+nav li {
+    list-style: none;
+    padding: 8px 14px;
+    margin: 3px;
+    color: ivory;
+}

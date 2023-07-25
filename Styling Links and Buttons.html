@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors And More Designing</title>
+    <style>
+        .container {
+            border: 3px solid aquamarine;
+            background-color: rgb(189, 249, 159);
+            border-top-right-radius: 20px;
+            padding: 34px;
+            margin: 34px;
+            width: 666px;
+        }
+
+        .btn1 {
+            background-color: rgb(247, 191, 186);
+            padding: 3.5px;
+            /* border: none; */
+            cursor: pointer;
+            font-size: 14px;
+            border-bottom-right-radius: 4px;
+            border: 1.5px solid grey;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(33, 30, 30);
+        }
+
+        a:hover {
+
+            color: rgb(247, 247, 247);
+            background-color: rgb(219, 194, 189);
+        }
+
+        a:visited {
+            background-color: darkslategrey;
+        }
+
+        a:active {
+            background-color: darkcyan;
+        }
+
+        .btn2 {
+            color: rgb(33, 30, 30);
+            background-color: rgb(255, 174, 167);
+            padding: 3.5px;
+            /* border: none; */
+            cursor: pointer;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-bottom-right-radius: 4px;
+        }
+
+        .btn2:hover {
+            color: rgb(247, 247, 247);
+            background-color: rgb(219, 194, 189);
+            border: 1.5px solid grey;
+        }
+
+        .btn2:active {
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nam dolores laboriosam quisquam blanditiis?
+            Aliquid
+            ad sed excepturi veniam quas, voluptatibus repudiandae veritatis culpa cupiditate assumenda repellat
+            voluptatem,
+            soluta provident?</p>
+        <a href="https://linkedin.com " target="_blank" class="btn1">Read More</a>
+        <button class="btn2">Contact Us</button>
+
+    </div>
+</body>
+
+</html>

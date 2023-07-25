@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animatiions and Keyframe iin CSS</title>
+    <style>
+        .container {
+            background-color: rgb(216, 149, 149);
+        }
+
+        .box {
+            background-color: lavender;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: rajeev;
+            animation-duration: 8s;
+            animation-iteration-count: 2;
+            animation-timing-function: ease-in;
+            animation-delay: 3s;
+            /* animation-fill-mode: forwards;
+            animation-direction: reverse; */
+
+            /* These properties can be applied using this shorthand */
+            /* Animation shortend property */
+            /* Animation: harry animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode  */
+            animation: rajeev 8s ease-in 2 4 backwards;
+        }
+
+        /* @keyframes rajeev {
+            from {
+                width: 200px;
+                 height: 200px; 
+            } 
+
+            to {
+                width: 1400px;
+                height: 400px; 
+            } 
+        } */
+        @keyframes rajeev {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 250px;
+                left: 0px;
+            }
+
+            75% {
+                top: 250px;
+                left: 250px;
+            }
+
+            100% {
+                top: 0px;
+                left: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+
+</body>
+
+</html>

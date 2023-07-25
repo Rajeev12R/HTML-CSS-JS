@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin and Padding</title>
+    <style>
+        .container {
+            background-color: rgb(70, 247, 206);
+            border: 6px solid pink;
+            /* padding: 12px;  Padding and Margin can be given specifically to each side 
+            By sequence top right bottom left;*/
+            padding: 18px 20px 30px 27px;
+            margin: 20px 25px;
+            border-bottom-right-radius: 20px;
+            width: 400px;
+            height: 200;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: rgb(126, 170, 170);
+        }
+    </style>
+</head>
+<!-- NOTE: In CSS The Box MOdel sequence is as follows:-  
+1st Element/Content 
+2nd Padding 
+3rd Borders
+4th Margin  -->
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum laboriosam corrupti
+            maxime quae ipsum blanditiis quaerat delectus veniam! Facere molestias deserunt placeat expedita
+            voluptatibus quo eum porro. Nobis, sed!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum laboriosam corrupti
+            maxime quae ipsum blanditiis quaerat delectus veniam! Facere molestias deserunt placeat expedita
+            voluptatibus quo eum porro. Nobis, sed!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum laboriosam corrupti
+            maxime quae ipsum blanditiis quaerat delectus veniam! Facere molestias deserunt placeat expedita
+            voluptatibus quo eum porro. Nobis, sed!</p>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: white
+}
+#time{
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid grey;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+    font-family:monospace;
+}
